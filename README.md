@@ -16,7 +16,7 @@
 ## Step 3.
 >### Run a container from the image
 >```
->docker run -d --rm --name test -p 3000:3000 isaac_lab1:1.0
+>docker run -d --rm --name isaac_app -p 3000:3000 isaac_lab1:1.0
 >```
 ## Step 4.
 ### Test the express app by opening http://localhost:3000 in your browser
